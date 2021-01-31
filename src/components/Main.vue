@@ -9,18 +9,11 @@
     </p>
     <h3>Top Skills</h3>
     <ul>
-      <li><a href="#" target="" rel="noopener">Django Framework</a></li>
-      <li><a href="#" target="" rel="noopener">jQuery</a></li>
-      <li><a href="#" target="" rel="noopener">SQL</a></li>
-      <li><a href="#" target="" rel="noopener">Git</a></li>
-      <li><a href="#" target="" rel="noopener">Linux CLI</a></li>
-      <li><a href="#" target="" rel="noopener">Java</a></li>
+      <li v-for="skill in topSkills" v-bind:key="skill.name"><a href="#" target="" rel="noopener">{{skill.name}}</a></li>
     </ul>
     <h3>Essential Links</h3>
     <ul>
-      <li><a href="https://www.linkedin.com/in/isa-imadoglu/" target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href="https://github.com/isakilikya" target="_blank" rel="noopener">GitHub</a></li>
-      <li><a href="https://twitter.com/isakilikya" target="_blank" rel="noopener">Twitter</a></li>
+      <li v-for="link in links" v-bind:key="link.name"><a href={{link.url}} target="_blank" rel="noopener">{{link.name}}</a></li>
     </ul>
   </div>
 </template>
@@ -29,7 +22,9 @@
 export default {
   name: 'Main',
   props: {
-    msg: String
+    msg: String,
+    topSkills: Array,
+    links: Array
   }
 }
 </script>
