@@ -1,5 +1,7 @@
 <template>
-  <div class="hello">
+  <div class="container">
+    <img alt="Vue logo" src="@/assets/cover.jpg">
+    <br> <br>
     <h1>{{ msg }}</h1>
     <p>
       I am a Software Engineer worked on Django Web Projects and on Java SOAP Projects.
@@ -11,25 +13,30 @@
     <ul>
       <li v-for="skill in topSkills" v-bind:key="skill.name"><a href="#" target="" rel="noopener">{{skill.name}}</a></li>
     </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li v-for="link in links" v-bind:key="link.name"><a href={{link.url}} target="_blank" rel="noopener">{{link.name}}</a></li>
-    </ul>
+    <hr>
+    <router-link to="/information" class="btn btn-outline-success">More Information</router-link>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Main',
-  props: {
-    msg: String,
-    topSkills: Array,
-    links: Array
+  data() {
+    return {
+      msg: "İsa Kilikya (Developer)",
+      topSkills: [
+        {name: "Django Framework"},
+        {name: "jQuery"},
+        {name: "SQL"},
+        {name: "Git"},
+        {name: "Linux CLI"},
+        {name: "Java"}
+      ],
+    }
   }
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h3 {
   margin: 40px 0 0;
