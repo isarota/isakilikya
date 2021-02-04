@@ -6,7 +6,7 @@
       <ul class="navbar-nav ml-auto">
         <li v-for="link in links" v-bind:key="link.name" class="nav-item pr-2">
           <a :href="link.url" target="_blank" rel="noopener">
-            <img :src="link.icon" :alt="link.name" width="30" height="30">
+            <img :src="link.icon" :alt="link.name" width="30" height="30" class="mr-1">
             <span>{{link.name}}</span>
           </a>
         </li>
