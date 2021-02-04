@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <img alt="Vue logo" src="@/assets/cover.jpg">
+  <div>
+    <img alt="Isa Kilikya" src="@/assets/cover.jpg" width="500" height="300">
     <br> <br>
     <h1>{{ msg }}</h1>
     <p>
@@ -15,6 +15,7 @@
     </ul>
     <hr>
     <router-link to="/information" class="btn btn-outline-success">More Information</router-link>
+    <br><br>
   </div>
 </template>
 
