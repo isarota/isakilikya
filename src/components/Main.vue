@@ -4,7 +4,7 @@
     <br> <br>
     <h1>{{ msg }}</h1>
     <p>
-      I am a Software Engineer worked on Django Web Projects and on Java SOAP Projects.
+      I am a Software Engineer worked on Django Web Projects and Java SOAP Middleware Projects.
     </p>
     <p>
       I'm 25 years old and I live in Istanbul.
@@ -24,7 +24,7 @@ export default {
   name: 'Main',
   data() {
     return {
-      msg: "İsa Kilikya (Developer)",
+      msg: "İsa Kilikya (Software Developer)",
       topSkills: [
         {name: "Django Framework"},
         {name: "jQuery"},
