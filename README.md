@@ -4,7 +4,8 @@
 
 - 🔭 I’m currently working as a Backend Developer.
 - 🌱 I’m currently learning Spring Boot.
-- 📫 How to reach me:
+
+## 📫 How to reach me:
 <p align="left">
 <a href="https://twitter.com/isakilikya" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="isakilikya" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/isa-imadoglu/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="isa-imadoglu" height="30" width="40" /></a>
